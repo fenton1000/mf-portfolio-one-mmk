@@ -1,0 +1,37 @@
+/* Import from Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Style body */
+
+body {
+    font-family: Hind, sans-serif;
+    font-weight: 400;
+}
+
+/* Style h1 and h2 headings */
+
+h1, h2 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+}
+
+/* Style header */
+
+header {
+    height: 25px;
+    width: 100%;
+}
+
+header > a {
+    font-size: 15px;
+    text-decoration: none;
+    color: inherit;
+    margin: auto, 0;
+}
