@@ -1,4 +1,4 @@
-# Portfolio 1 - Mark's Maintenance Killarney README
+ Portfolio 1 - Mark's Maintenance Killarney README
 
 ## 1. Purpose of the project
 
@@ -80,6 +80,22 @@ The web page will be provided with a background colour in a light off white shad
 The individual competency sections and the testimonal cards will be provided with light background colours appropriate to the individual competencies. EXACT DETAILS REMAIN TO BE FINALISED AT THIS STAGE IN THE DESIGN PROCESS.
 
 ## 6. wireframes
+
+Based on the required features, wireframe outlines were produced and agreed. The development of the website then proceeded so as to realise these outlines. The wireframes are included hereunder for reference.
+
+#### Image One
+
+Outlines the top half of the webpage.
+
+![alt text](assets/images-for-readme/p1mmktop.png "wireframe one")
+
+#### Image Two
+
+Outlines the bottom half of the webpage.
+
+
+![alt text](assets/images-for-readme/p1mmkbottom.png "wireframe two")
+
 === 1-6 for planning and then write code ===
 ## 7. technology
 ## 8. testing
