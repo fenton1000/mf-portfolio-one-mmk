@@ -55,7 +55,30 @@ The Contact Us section aims to address user story 6. Given the nature of the ser
 A simple footer is also included to complete the page asthetic. It also repeats the contact information as this is a likely UX expectation. Links to social media are also included. The business has an existing facebook page for posting occasional updates and uses instagram to post photos of recently completed work. However the business considers these to currently be a simple form of online advertising but not a primary contact stream and therefore the social media links are not included in the Contact Us section.
 
 ## 4. future features
+
+Two potential future features have been identified at this point as follows:
+
+1. Provision of a Business to Business (B2B) section is a likely short term add on goal. It would be reasonably straight forward to add this on as the service offering would be the same. The B2B section would focus more on additional information that business might require such as VAT registration, VAT number, Tax Clearance Status, Insurances etc. It could also provide addition specification detail regarding certain services. For example a larger business may require more detail on the type of equipment the business holds. For cutting lawns does the business have a ride-on with a large cutting capacity or a smaller capacity walk behind mower? This could be important to a property management company for example. Also a B2B section could suggest possible business link ups. For example, "Are you a furniture store? Maybe you want to consider offering an assembly service directly to your customers? Talk to us!" While the addition of the B2B section is not technically difficult it does requie the provision of more detailed information all of which would need to be carefully reviewed for accuracy. Given the time that would be required it was considered more beneficial to the business' goal to launch the site without this initially and add it later.
+
+2. A longer term goal might be the provision of pricing information. However given the relatively wide range of services provided this is a more difficult proposition. Factors such as equipment required for a given job, required total labour hours, distance to the job site etc. all form part of the calculation. Any future provision of such information would have to be very carefully considered by the business owners.
+
 ## 5. Typography and color scheme
+
+### 5.1 Typography
+
+The chosen font for Headings is Montserrat.
+The chosen font for all other text is Hind.
+
+It is considered that together they convey the simple, clean, businesslike approach required for this website.
+
+The pairings were chosen from Google Fonts with reference to www.fontpair.co
+
+### 5.2 Color Scheme
+
+The web page will be provided with a background colour in a light off white shade. EXACT DETAILS REMAIN TO BE FINALISED AT THIS STAGE IN THE DESIGN PROCESS.
+
+The individual competency sections and the testimonal cards will be provided with light background colours appropriate to the individual competencies. EXACT DETAILS REMAIN TO BE FINALISED AT THIS STAGE IN THE DESIGN PROCESS.
+
 ## 6. wireframes
 === 1-6 for planning and then write code ===
 ## 7. technology
