@@ -79,6 +79,25 @@ nav a:hover {
     border: 1px solid black;
 }
 
+/* Hero Image section styling*/
+
+#hero {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    background: url('../images/pexels-max-vakhtbovych-7587877-small.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
 /* Navigation Bar Responsiveness */
 
 /* For Screens 800px wide and down */
