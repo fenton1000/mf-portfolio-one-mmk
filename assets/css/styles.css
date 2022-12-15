@@ -42,13 +42,12 @@ header > a:hover {
     background-color: darkseagreen;
     color: white;
     border-radius: 10px;
-    border: 1px solid black;
 }
 
 header h2 {
-    font-size: 25px;
+    font-size: 17px;
     letter-spacing: 3px;
-    padding: 5px;
+    padding: 3px;
 }
 
 nav {
@@ -61,22 +60,21 @@ nav li {
 }
 
 nav a {
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     color: inherit;
-    padding: 3px 5px;
+    padding: 3px 7px;
     letter-spacing: 3px;
 }
 
 nav a:hover {
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     background-color: darkseagreen;
     color: white;
     padding: 3px;
     letter-spacing: 3px;
     border-radius: 10px;
-    border: 1px solid black;
 }
 
 /* Styles for hero image and title */
