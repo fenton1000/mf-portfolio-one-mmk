@@ -118,13 +118,76 @@ nav a:hover {
 
 /* Navigation Bar Responsiveness */
 
-/* For Screens 800px wide and down */
+/* For Screens 700px wide and down */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
 
     nav {
         clear: left;
         float: none;
     }
 
+    #main-heading {
+        width: 30%;
+        position: absolute;
+        top: 20px;
+        left: 5px;
+        text-align: left;
+    }
+    
+    #main-heading h1 {
+        font-size: 25px;
+    }
+    
+    #main-heading h2 {
+        font-size: 10px;
+    }
+}
+
+/* For Screens 570px wide and down */
+
+@media screen and (max-width: 570px) {
+
+    nav {
+        clear: left;
+        float: none;
+    }
+
+    header h2 {
+        font-size: 14px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    #main-heading {
+        width: 30%;
+        position: absolute;
+        top: 20px;
+        left: 5px;
+        text-align: left;
+    }
+    
+    #main-heading h1 {
+        font-size: 20px;
+    }
+    
+    #main-heading h2 {
+        font-size: 10px;
+    }
+
+}
+
+/* For Screens 400px wide and down */
+
+@media screen and (max-width: 400px) {
+
+    #main-heading {
+        width: 60%;
+        position: absolute;
+        top: 10px;
+        left: 15%;
+        text-align: center;
+    }
 }
