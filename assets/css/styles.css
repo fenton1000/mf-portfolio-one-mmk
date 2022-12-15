@@ -25,17 +25,29 @@ h1, h2 {
 /* Style header */
 
 header {
-    height: 30px;
     width: 100%;
+    padding: 5px 0;
 }
 
 header > a {
     text-decoration: none;
     color: inherit;
+    float: left;
+}
+
+header > a:hover {
+    text-decoration: none;
+    float: left;
+    background-color: darkseagreen;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 header h2 {
     font-size: 25px;
+    letter-spacing: 3px;
+    padding: 5px;
 }
 
 nav {
@@ -50,4 +62,17 @@ nav a {
     font-size: 20px;
     text-decoration: none;
     color: inherit;
+    padding: 3px;
+    letter-spacing: 3px;
+}
+
+nav a:hover {
+    font-size: 20px;
+    text-decoration: none;
+    background-color: darkseagreen;
+    color: white;
+    padding: 3px;
+    letter-spacing: 3px;
+    border-radius: 10px;
+    border: 1px solid black;
 }
