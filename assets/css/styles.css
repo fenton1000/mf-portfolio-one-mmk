@@ -33,6 +33,7 @@ header > a {
     text-decoration: none;
     color: inherit;
     float: left;
+    margin-left: 20px;
 }
 
 header > a:hover {
@@ -52,6 +53,7 @@ header h2 {
 
 nav {
     float: right;
+    margin-right: 20px;
 }
 
 nav li {
@@ -62,7 +64,7 @@ nav a {
     font-size: 20px;
     text-decoration: none;
     color: inherit;
-    padding: 3px;
+    padding: 3px 5px;
     letter-spacing: 3px;
 }
 
