@@ -78,3 +78,16 @@ nav a:hover {
     border-radius: 10px;
     border: 1px solid black;
 }
+
+/* Navigation Bar Responsiveness */
+
+/* For Screens 800px wide and down */
+
+@media screen and (max-width: 800px) {
+
+    nav {
+        clear: left;
+        float: none;
+    }
+
+}
