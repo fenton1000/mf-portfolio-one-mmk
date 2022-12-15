@@ -8,21 +8,21 @@
     border: none;
 }
 
-/* Style body */
+/* Styles for body */
 
 body {
     font-family: Hind, sans-serif;
     font-weight: 400;
 }
 
-/* Style h1 and h2 headings */
+/* Styles for h1 and h2 headings */
 
 h1, h2 {
     font-family: Montserrat, sans-serif;
     font-weight: 700;
 }
 
-/* Style header */
+/* Styles for header */
 
 header {
     width: 100%;
@@ -79,7 +79,7 @@ nav a:hover {
     border: 1px solid black;
 }
 
-/* Hero Image section styling*/
+/* Styles for hero image and title */
 
 #hero {
     height: 600px;
@@ -92,6 +92,26 @@ nav a:hover {
     background-size: cover;
     height: 100%;
     width: 100%;
+    position: relative;
+}
+
+#main-heading {
+    background-color: burlywood;
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    left: 10%;
+    text-align: center;
+}
+
+#main-heading h1 {
+    font-size: 35px;
+}
+
+#main-heading h2 {
+    font-size: 15px;
 }
 
 
