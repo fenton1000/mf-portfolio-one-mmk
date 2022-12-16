@@ -12,14 +12,26 @@
 
 body {
     font-family: Hind, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
+    background-color: rgb(247, 242, 199);
+    color: rgb(19, 24, 23);
 }
 
-/* Styles for h1 and h2 headings */
+/* Styles for h1, h2 and h3 headings */
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Montserrat, sans-serif;
     font-weight: 700;
+}
+
+#what-we-do h2, #testimonials h2, #gallery h2, #contact h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+h3 {
+    text-align: center;
+    padding: 20px 5px;
 }
 
 /* Styles for header */
@@ -132,6 +144,34 @@ nav a:hover {
 
 .flex-container {
     display: flex;
+    height: 1000px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-container div {
+    width: 200px;
+    height: 450px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: justify;
+}
+
+.garden-color {
+    background-color: rgb(171, 201, 119);
+}
+
+.assembly-color {
+    background-color: rgb(166, 196, 196);
+}
+
+.washing-color {
+    background-color: rgb(148, 247, 247);
+}
+
+.interior-color {
+    background-color: rgb(245, 201, 201);
 }
 
 /* For Screens 700px wide and down */
