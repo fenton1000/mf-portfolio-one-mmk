@@ -184,12 +184,18 @@ nav a:hover {
     justify-content: space-around;
 }
 
-.flex-container-test div {
+.flex-container-test > div {
     width: 150px;
     height: 320px;
     padding: 10px;
     border-radius: 20px;
     text-align: justify;
+}
+
+/* Add shadows to create the "card" effect for testimonials - credit to w3schools.com */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
 }
 
 .quote {
