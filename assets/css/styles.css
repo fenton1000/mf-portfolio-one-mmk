@@ -185,7 +185,7 @@ nav a:hover {
 }
 
 .flex-container-test div {
-    width: 200px;
+    width: 150px;
     height: 320px;
     padding: 10px;
     border-radius: 20px;
@@ -320,6 +320,18 @@ nav a:hover {
         border-radius: 20px;
         text-align: justify;
     }
+
+    .flex-container-test {
+        display: flex;
+        height: 700px;
+        max-width: 400px;
+        margin: 0 auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+  
 }
 
 /* For Screens 700px wide and up */
@@ -337,4 +349,15 @@ nav a:hover {
     .flex-container div {
         height: 360px;
     }
-}
+
+    .flex-container-test {
+        display: flex;
+        height: 350px;
+        max-width: none;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+ 
+    }
+
