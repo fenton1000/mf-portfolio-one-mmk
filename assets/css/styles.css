@@ -229,6 +229,7 @@ nav a:hover {
     width: 220px;
     height: 220px;
     padding: 10px;
+    background-color: rgb(126, 188, 190);
 }
 
 img {
