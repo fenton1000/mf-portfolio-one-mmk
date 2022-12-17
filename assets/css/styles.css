@@ -53,8 +53,6 @@ header > a {
 }
 
 header > a:hover {
-    text-decoration: none;
-    float: left;
     background-color: darkseagreen;
     color: white;
     border-radius: 10px;
@@ -84,12 +82,8 @@ nav a {
 }
 
 nav a:hover {
-    font-size: 15px;
-    text-decoration: none;
     background-color: darkseagreen;
     color: white;
-    padding: 3px;
-    letter-spacing: 3px;
     border-radius: 10px;
 }
 
@@ -277,9 +271,23 @@ img {
 
 @media screen and (max-width: 700px) {
 
+    header {
+        padding: 3px 0;
+    }
+
     nav {
         clear: left;
         float: none;
+    }
+
+    header h2 {
+        font-size: 14px;
+        padding: 1px;
+    }
+
+    nav a {
+        font-size: 12px;
+        padding: 1px 7px;
     }
 
     #main-heading {
@@ -308,19 +316,6 @@ img {
 
 @media screen and (max-width: 570px) {
 
-    nav {
-        clear: left;
-        float: none;
-    }
-
-    header h2 {
-        font-size: 14px;
-    }
-
-    nav a {
-        font-size: 12px;
-    }
-
     #main-heading {
         width: 30%;
         position: absolute;
@@ -340,12 +335,36 @@ img {
     #hero-image p {
         font-size: 12px;
     }
-
 }
 
 /* For Screens 400px wide and down */
 
 @media screen and (max-width: 400px) {
+
+    header {
+        padding: 3px 0;
+    }
+
+header > a {
+    margin-left: 5px;
+}
+
+header h2 {
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+nav {
+    float: right;
+    clear: none;
+    margin-right: 5px;
+}
+
+nav a {
+    font-size: 10px;
+    padding: 1px 3px;
+    letter-spacing: 1px;
+}
 
     #main-heading {
         width: 60%;
@@ -363,7 +382,24 @@ img {
         left: 10px;
         text-align: center;
     }
+    #hero {
+        margin-top: 32px;
+    }
 }
+
+/* For Screens 340px wide and down */
+
+@media screen and (max-width: 340px) {
+
+    header span{
+        display: none;
+    }
+
+    header h2 {
+        letter-spacing: 0px;
+    }
+}
+
 
 /* For Screens 570px wide and up */
 
