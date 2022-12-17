@@ -237,6 +237,37 @@ img {
     max-height: 100%;
 }
 
+/* Styles contact us section */
+
+.flex-container-contact {
+    display: flex;
+    height: 1000px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-container-contact > div {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+#contact-form {
+    width: 200px;
+    height: 500px;
+    background-color: rgb(212, 136, 136);
+}
+
+.flex-container-contact p {
+    text-align: center;
+}
+
+.contact-large {
+    font-size: larger;
+    padding: 10px;
+}
+
 /* For Screens 700px wide and down */
 
 @media screen and (max-width: 700px) {
