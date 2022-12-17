@@ -241,7 +241,7 @@ img {
 
 .flex-container-contact {
     display: flex;
-    height: 1000px;
+    height: 900px;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -387,6 +387,14 @@ img {
         margin: 0 auto;
         flex-direction: row;
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .flex-container-contact {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
         align-items: center;
         justify-content: space-around;
     }
