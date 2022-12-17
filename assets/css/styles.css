@@ -226,8 +226,8 @@ nav a:hover {
 }
 
 .flex-container-gallery > div {
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
     padding: 10px;
     background-color: rgb(126, 188, 190);
 }
