@@ -87,14 +87,14 @@ Based on the required features, wireframe outlines were produced and agreed. The
 
 Outlines the top half of the webpage.
 
-![alt text](assets/images-for-readme/p1mmktop.png "wireframe one")
+![alt text](documents/p1mmktop.png "wireframe one")
 
 #### Image Two
 
 Outlines the bottom half of the webpage.
 
 
-![alt text](assets/images-for-readme/p1mmkbottom.png "wireframe two")
+![alt text](documents/p1mmkbottom.png "wireframe two")
 
 === 1-6 for planning and then write code ===
 ## 7. technology
