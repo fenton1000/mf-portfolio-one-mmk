@@ -421,6 +421,11 @@ nav a {
         height: 600px;
         flex-wrap: wrap;
     }
+
+    .gallery-holder {
+        height: 500px;
+        flex-wrap: wrap;
+    }
 }
 
 /* For Screens 570px wide and up */
@@ -467,6 +472,12 @@ nav a {
 @media screen and (min-width: 850px) {
 
     .card-holder {
+        height: 300px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .gallery-holder {
         height: 300px;
         flex-direction: row;
         flex-wrap: nowrap;
