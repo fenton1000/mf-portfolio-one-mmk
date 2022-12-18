@@ -215,27 +215,39 @@ nav a:hover {
     padding: 2px 10px;
 }
 
-/* Styles gallery photos */
+/* Add styles for gallery  */
 
-.flex-container-gallery {
+.gallery-holder {
     display: flex;
-    height: 700px;
+    height: 1000px;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 
-.flex-container-gallery > div {
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    background-color: rgb(126, 188, 190);
-}
+/* Photo gallery css styling from w3 schools
+    see https://www.w3schools.com/css/css_image_gallery.asp  */
 
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
+.photo-gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    background-color: rgb(202, 197, 157);
+  }
+  
+.photo-gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  .photo-gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .caption {
+    padding: 15px;
+    text-align: center;
+  }
 
 /* Styles contact us section */
 
@@ -447,15 +459,6 @@ nav a {
     .services div {
         width: 295px;
         height: 330px;
-    }
-
-    .flex-container-gallery {
-        display: flex;
-        height: 250px;
-        width: 100%;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
     }
     }
 
