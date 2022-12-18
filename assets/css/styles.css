@@ -251,15 +251,15 @@ nav a:hover {
 
 /* Styles contact us section */
 
-.flex-container-contact {
+.contact-holder {
     display: flex;
-    height: 900px;
+    height: 1100px;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 
-.flex-container-contact > div {
+.contact-holder > div {
     width: 200px;
     height: 200px;
     padding: 10px;
@@ -267,17 +267,53 @@ nav a:hover {
 
 #contact-form {
     width: 200px;
-    height: 500px;
+    height: 650px;
     background-color: rgb(212, 136, 136);
+    padding: 10px;
+    border-radius: 20px;
 }
 
-.flex-container-contact p {
+.contact-holder p {
     text-align: center;
 }
 
 .contact-large {
     font-size: larger;
     padding: 10px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+label {
+    font-size: small;
+    padding-bottom: 5px;
+}
+
+textarea {
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    padding: 10px;
+    background-color: rgb(221, 212, 212);
+    border: 5px solid rgb(181, 219, 176);
+}
+
+input[type=submit]:hover {
+    background-color: rgb(181, 219, 176);
+}
+
+.color-change {
+    background-color: rgb(221, 212, 212);
+}
+
+.color-change:hover {
+    background-color: white;
+    border: 1px solid black;
 }
 
 /* For Screens 700px wide and down */
