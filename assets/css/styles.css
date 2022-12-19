@@ -299,8 +299,7 @@ textarea {
 
 input[type=submit] {
     padding: 10px;
-    background-color: rgb(221, 212, 212);
-    border: 5px solid rgb(181, 219, 176);
+    background-color: rgb(202, 197, 157);
 }
 
 input[type=submit]:hover {
@@ -308,12 +307,18 @@ input[type=submit]:hover {
 }
 
 .color-change {
-    background-color: rgb(221, 212, 212);
+    background-color: rgb(247, 242, 199);
 }
 
 .color-change:hover {
     background-color: white;
     border: 1px solid black;
+}
+
+#confirm {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* For Screens 700px wide and down */
