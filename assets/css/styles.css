@@ -267,7 +267,7 @@ nav a:hover, footer a:hover {
 
 .contact-holder > div {
     width: 200px;
-    height: 200px;
+    height: 650px;
     padding: 10px;
 }
 
@@ -522,6 +522,12 @@ nav a {
     .services div {
         width: 295px;
         height: 330px;
+    }
+
+    .contact-holder > div {
+        width: 450px;
+        height: 650px;
+        padding: 10px;
     }
     }
 
