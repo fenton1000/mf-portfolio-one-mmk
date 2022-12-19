@@ -364,7 +364,7 @@ footer ul {
     #main-heading {
         width: 30%;
         position: absolute;
-        top: 20px;
+        top: 30px;
         left: 5px;
         text-align: left;
     }
@@ -394,14 +394,6 @@ footer ul {
 /* For Screens 570px wide and down */
 
 @media screen and (max-width: 570px) {
-
-    #main-heading {
-        width: 30%;
-        position: absolute;
-        top: 20px;
-        left: 5px;
-        text-align: left;
-    }
     
     #main-heading h1 {
         font-size: 20px;
