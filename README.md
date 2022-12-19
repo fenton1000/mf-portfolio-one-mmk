@@ -1,6 +1,6 @@
  # Portfolio 1 - Mark's Maintenance Killarney README
 
-## 1. Purpose of the project
+## 1. Purpose of the Project
 
 Mark's Maintenance Killarney is a service provider website aimed at people in need of property and garden maintenance services. The site aims to provide information on the services provided categorised into broad overaching fields of competence and further broken down to specific services. It also edeavours to encourage potential interested persons to contact the service provider if they feel they have a particular need that may well fall within these areas of competence but are not speciffically listed. Furthermore the site endeavours to convey to potential customers of the business a sense of experience and competence through the use of both testimonials and examples of work via the photo gallery. Finally it provides interested persons with several means of contacting the service provider.
 
@@ -8,7 +8,7 @@ From the business owner's point of view the clear aim is to increase business vo
 
 This site is aimed at people likely to be searching for services and terms such as, Handyman, Handyperson, DIY, Propery Maintenance, Garden Maintenance, Grass Cutting, No Job too Small.
 
-## 2. user stories
+## 2. User Stories
 
 The user stories upon which the features of the project are based are as follows:
 
@@ -26,33 +26,71 @@ The user stories upon which the features of the project are based are as follows
 
 ### 3.1 Navigation
 
-The navigation bar is designed with user story 2 in mind. Given the relatively simple nature and purpose of the site, it is a single page site that a user can scroll through to view all the available information and features. However, links to the top of each key section are also provided in the navigation bar to further aid easy navigation. Links are therefore provided to HOME, TESTIMONIALS, GALLERY and CONTACT US. The navigation bar is sticky so that the navigation links are always available to the user. The navigation bar also contains the business logo. This also provides a link to the top or home position as this is likely to be expected by a typical user from a UX point of view.
+* The navigation bar is horizontal, located at the top of the page and is fixed. 
+
+* The navigation bar contains the company logo on the left side and this is also a link to the top of the page.
+
+* The navigation bar contains four links to sections of the page. These are Home, Testimonials, Gallery and Contact Us.
+
+![alt text](documents/nav-bar.png "navigation bar")
 
 ### 3.2 Header
 
-The header contains an hero image to convey an initial impression of the possible subject of the website in that it shows a house and garden. The business name "Mark's Maintenance Killarney" features prominently together with the sub-heading "Your Local One-stop Garden and Property Maintenance Service". Combined these work to convey the purpose of the site and so address user story 1 above. The header also contains a seperate tag line of "As Life's Too Short for DIY!" This is aimed at gently encouraging potential customers to use the services provided as well as conveying a sense that this business caters for smaller jobs, not just biger ones.
+* The header contains an hero image of a house and garden in keeping with the purpose of the site.
+
+* The business name "Mark's Maintenance Killarney" features prominently at the top. Also included is the sub-heading "Your Local One-stop Garden and Property Maintenance Service".
+
+* The header also contains a seperate highlighted tag line of "As Life's Too Short for DIY!"
+
+![alt text](documents/header.png "header")
 
 ### 3.3 What we do
 
-This section outlines the competencies of the business in a clear simple format. Background colours for each of the sections are different and are chosen in keeping with the particular area of competence, for example a light green shade for the gardening section. The key specific services are outlined in the form of a short paragraph in a conversational style. This is aimed at making the business appear more accessible on a personal level for the potential customer. The business is on the customer's side and understands the pain of taking on DIY. No problem. This business will do it for you. This feature addresses user story 3 above.
+* Contains four distinct sections, one for each of the four areas of business competency, these being GARDEN, FLAT-PACK ASSEMBLY, PRESSURE WASHING AND CLEANING and INTERIOR PAINTING AND DECORATING.
+
+* Each section contains a paragraph oulining the services provided.
+
+![alt text](documents/what-we-do.png "what we do")
 
 ### 3.4 Testimonials
 
-Testimonials are provided to address user story 4 above. Each testimonial relates to one of the 4 main areas of competence and there are four testimonials one for each of these areas. There are two testimonials from women and two from men.
+* Four testimonials are provided, two from women and two from men.
+
+* Each testimonial relates to a different area of competence.
+
+* Each is presented on a seperate card.
+
+![alt text](documents/testimonials.png "testimonials")
 
 ### 3.5 Gallery
 
-A photographic gallery has been provided to address user story 5 above. The gallery provides examples of work in each of the four main areas of competence.
+* The gallery provides examples of work in each of the four main areas of competence.
+
+* Each photograph has a short discription beneath it.
+
+* Each photogragh when clicked on, opens up a larger version of itself in a new page.
+
+![alt text](documents/photos.png "photographic gallery")
 
 ### 3.6 Contact Us
 
-The Contact Us section aims to address user story 6. Given the nature of the service it is quite likely that potential customers will contact this business by phone. Therefore the contact number is clearly displayed. An email address is also provided. Some customers may prefer to complete a form to send queries, particularly initial queries and therefore a simple form to address this need is also provided.
+* Contains contact details including, telephone number, email address and address.
+
+* Includes a contact form that can be completed and submitted. The form has required fields so as to ensure correct completion. Upon submission a comfirmation page is returned.
+
+* A google map is included in versions for larger screens as an additional aid. It is excluded from smaller screen versions as it was not a specific project requirement and takes up space without absolute necessity.
+
+![alt text](documents/contact-us.png "contact us")
 
 ### 3.7 Footer
 
-A simple footer is also included to complete the page asthetic. It also repeats the contact information as this is a likely UX expectation. Links to social media are also included. The business has an existing facebook page for posting occasional updates and uses instagram to post photos of recently completed work. However the business considers these to currently be a simple form of online advertising but not a primary contact stream and therefore the social media links are not included in the Contact Us section.
+* The footer is clean and simple only containing links to social media.
 
-## 4. future features
+* Links are provided to Facebook, Instagram, Twitter and youtube via their social media icons.
+
+![alt text](documents/footer.png "footer")
+
+## 4. Future Features
 
 Two potential future features have been identified at this point as follows:
 
@@ -60,7 +98,7 @@ Two potential future features have been identified at this point as follows:
 
 2. A longer term goal might be the provision of pricing information. However given the relatively wide range of services provided this is a more difficult proposition. Factors such as equipment required for a given job, required total labour hours, distance to the job site etc. all form part of the calculation. Any future provision of such information would have to be very carefully considered by the business owners.
 
-## 5. Typography and color scheme
+## 5. Typography and Color Scheme
 
 ### 5.1 Typography
 
@@ -77,7 +115,7 @@ The web page will be provided with a background colour in a light off white shad
 
 The individual competency sections and the testimonal cards will be provided with light background colours appropriate to the individual competencies. EXACT DETAILS REMAIN TO BE FINALISED AT THIS STAGE IN THE DESIGN PROCESS.
 
-## 6. wireframes
+## 6. Wireframes
 
 Based on the required features, wireframe outlines were produced and agreed. The development of the website then proceeded so as to realise these outlines. The wireframes are included hereunder for reference.
 
@@ -94,9 +132,23 @@ Outlines the bottom half of the webpage.
 
 ![alt text](documents/p1mmkbottom.png "wireframe two")
 
-=== 1-6 for planning and then write code ===
-## 7. technology
-## 8. testing
+## 7. Technology
+
+The following technologies were used:
+
+* HTML
+
+* CSS
+
+* The IDE used was GITPOD
+
+* The repoitory used is GITHUB
+
+* The website is deployed on GITHUB pages.
+
+* Testing was carried out using Chrome Developer Tools including lighthouse for responsiveness and performance.
+
+## 8. Testing
    ### 8.1 code validation
    ### 8.2 test cases (user story based with screenshots)
    ### 8.3 fixed bugs
