@@ -269,6 +269,10 @@ nav a:hover, footer a:hover {
     width: 200px;
     height: 650px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #contact-form {
@@ -376,6 +380,14 @@ footer ul {
     #hero-image p {
         font-size: 15px;
         bottom: 150px;
+    }
+
+    #contact iframe {
+        display: none;
+    }
+
+    .contact-holder > div {
+        height: 400px;
     }
 }
 
@@ -498,11 +510,8 @@ nav a {
     }
 
     .contact-holder {
-        display: flex;
-        height: 850px;
+        height: 750px;
         flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
     }
 
     footer a {
@@ -525,9 +534,7 @@ nav a {
     }
 
     .contact-holder > div {
-        width: 450px;
-        height: 650px;
-        padding: 10px;
+        width: 400px
     }
     }
 
@@ -547,6 +554,10 @@ nav a {
         flex-wrap: nowrap;
     }
 
+    .contact-holder > div {
+        width: 550px
+    }
+
     footer a {
         font-size: 25px;
     }
@@ -564,6 +575,10 @@ nav a {
     .services div {
         width: 370px;
         height: 260px;
+    }
+
+    .contact-holder > div {
+        width: 650px
     }
 }
 
