@@ -12,17 +12,15 @@ This site is aimed at people likely to be searching for services and terms such 
 
 The user stories upon which the features of the project are based are as follows:
 
-1. As a visiting user, I want to quickly understand the purpose of this website.
+1. As a visiting user, I want to be able to navigate this site easily.
 
-2. As a visiting user, I want to be able to navigate this site easily.
+2. As a visiting user, I want to know what services are provided by this business so that I can quickly determine if it may be able to meet my needs.
 
-3. As a visiting user, I want to know what services are provided by this business so that I can quickly determine if it may be able to meet my needs.
+3. As a visiting user, I want to know if the business has a track record of providing these services.
 
-4. As a visiting user, I want to know if the business has a track record of providing these services.
+4. As a visiting user, I would like to see some examples of previous work the business has done.
 
-5. As a visiting user, I would like to see some examples of previous work the business has done.
-
-6. As a visiting user, I want to know how to contact the business if I have a query or if I think it can provide the service I need.
+5. As a visiting user, I want to know how to contact the business if I have a query or if I think it can provide the service I need.
 
 ## 3. Features
 
