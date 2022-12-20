@@ -149,8 +149,123 @@ The following technologies were used:
 * Testing was carried out using Chrome Developer Tools including lighthouse for responsiveness and performance.
 
 ## 8. Testing
-   ### 8.1 code validation
-   ### 8.2 test cases (user story based with screenshots)
+
+   ### 8.1 Code Validation
+
+The code successfully passed html validation:
+
+![alt text](documents/w3c-html-val.png "html validation screenshot")
+
+The code successfully passed css validation:
+
+![alt text](documents/w3c-css-val.png "css validation screenshot")
+
+   ### 8.2 Test Cases
+
+   #### 8.2.1 User Story 1
+
+As a visiting user, I want to be able to navigate this site easily.
+
+This requirement is met by provision of a navigation bar that has certain requirements tested as follows:
+
+Test Requirement|Met Requirement when tested
+---|:---:
+Show company logo|Yes
+Logo is a link to top of page and returns to top when clicked|Yes
+Provide home link|Yes
+Clicking home link returns to top of page|Yes
+Provide Testimonials link| Yes
+Clicking Testimonials link brings us to top of Testimonials|Yes
+Provide Gallery link| Yes
+Clicking Gallery link brings us to top of Gallery|Yes
+Provide Contact Us link| Yes
+Clicking Contact Us link brings us to top of Contact Us|Yes
+Header is sticky so it can be accesed at any point| Yes
+
+#### 8.2.2 User Story 2
+
+As a visiting user, I want to know what services are provided by this business so that I can quickly determine if it may be able to meet my needs.
+
+This requirement is met by provision of a What we do section that has certain requirements tested as follows:
+
+Test Requirement|Met Requirement when tested
+---|:---:
+Provide information on services provided relating to the garden|Yes
+Provide information on services provided relating to flat-pack assembly|Yes
+Provide information on services provided relating to pressure washing and cleaning|Yes
+Provide information on services provided relating to interior decorating and painting|Yes
+
+#### 8.2.3 User Story 3
+
+As a visiting user, I want to know if the business has a track record of providing these services.
+
+This requirement is met by provision of a Testimonials section that has certain requirements tested as follows:
+
+Test Requirement|Met Requirement when tested
+---|:---:
+Provide testimonals relating to various aspects of the service available|Yes
+
+#### 8.2.4 User Story 4
+
+As a visiting user, I would like to see some examples of previous work the business has done.
+
+This requirement is met by provision of a photographic gallery section that has certain requirements tested as follows:
+
+Test Requirement|Met Requirement when tested
+---|:---:
+Show photographs of a varied sample of works|Yes
+Include captions under photographs to explain the particular work example|Yes
+Have clickable photographs that open in a larger format in a new tab|Yes
+Check each photogragh opens correctly when clicked|Yes
+
+#### 8.2.5 User Story 5
+
+As a visiting user, I want to know how to contact the business if I have a query or if I think it can provide the service I need.
+
+This requirement is met by provision of a contact us section and social media links in the footer that have certain requirements tested as follows:
+
+Test Requirement|Met Requirement when tested
+---|:---:
+Provide business phone number|Yes
+Provide business email|Yes
+Provide business address|Yes
+Provide map on larger screen sizes|Yes
+Provide a contact form|Yes
+On Form:|
+Provide a field for first name|Yes
+Make first name a required field (form will not submit without entry - provides prompt)|Yes
+Provide a field for surname|Yes
+Make surname a required field (form will not submit without entry - provides prompt)|Yes
+Provide a field for phone number|Yes
+Make phone number a required field (form will not submit without entry - provides prompt)|Yes
+Phone number field will only accept numbers to reduce error risk - provides prompt|Yes
+Provide a field for email address|Yes
+Make email address a required field (form will not submit without entry - provides prompt)|Yes
+Email address field will only accept email address formats to reduce error risk - provides prompt|Yes
+Provide a field for query entry - not a required field|Yes
+Entry fields change color when mouse hovers over|Yes
+Provide a submit button|Yes
+Submit button changes color when hovered over|Yes
+When submit pressed a confirmation pages opens|Yes
+Confirmation page has header and footer in same website styling|Yes
+Confirmation page has logo and home links for navigation back to main page|Yes
+Confirmation page links work when clicked|Yes
+Temporarily link form to Code Institute form dump via method POST and check data correctly sent|Yes (See screen grabs below)
+Clicking on Facebook icon opens Facebook in a new page|Yes
+Clicking on Instagram icon opens Instagram in a new page|Yes
+Clicking on Twitter icon opens Twitter in a new page|Yes
+Clicking on youtube icon opens youtube in a new page|Yes
+
+#### 8.2.6 Form Dump Screen Grabs
+
+Completed Form:
+
+![alt text](documents/form.png "form screenshot")
+
+Form Dump Confirmation:
+
+![alt text](documents/form-dump.png "form dump confirmation screenshot")
+
    ### 8.3 fixed bugs
    ### 8.4 supported screens and browsers
 ## 9. Deployment
