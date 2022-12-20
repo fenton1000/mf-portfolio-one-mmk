@@ -171,6 +171,8 @@ The following technologies were used:
 
 * Testing was carried out using Chrome Developer Tools including lighthouse for responsiveness and performance.
 
+* Balsamiq was used to prepare wireframes.
+
 ## 8. Testing
 
    ### 8.1 Code Validation
@@ -289,8 +291,19 @@ Form Dump Confirmation:
 
 ![alt text](documents/form-dump.png "form dump confirmation screenshot")
 
-   ### 8.3 fixed bugs
-   ### 8.4 supported screens and browsers
+   ### 8.3 Fixed Bugs
+
+1. At certain screen widths the navigation elements were not well aligned.
+
+Solution: Reviewed, adjusted and added media queries to better control font-size, float and letter spacing at various screen widths. Also removed the font awesome icon from the logo at screen widths less than 340px to free up screen space. This was achieved by adding a span element to contain the icon in the index.html file and then targeting this span in an @media screen and (max-width: 340px) media query with a css rule display: none.
+
+2. When deployed to Github the main heading sat too high on screens less than 700px and was partly covered by the header.
+
+Solution: The simple solution was to adjust the absolute position of the main heading div element to top: 30px. This solved the issue for the relevant screen width range with other media queries already successfully governing positioning above and below this.
+
+   ### 8.4 Supported Screens and Browsers
+
+
 ## 9. Deployment
    ### 9.1 via gitpod
    ### 9.2 via github pages
