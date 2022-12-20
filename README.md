@@ -303,6 +303,35 @@ Solution: The simple solution was to adjust the absolute position of the main he
 
    ### 8.4 Supported Screens and Browsers
 
+   #### 8.4.1 Supported Screens
+
+The site has been tested and was found to be responsive and work for the following screen sizes using Chrome Developer Tools:
+
+* Galaxy Fold
+
+* Mobile 375px
+
+* Mobile 425px
+
+* Tablet 768px
+
+* Laptop 1024px
+
+* Laptop 1440px
+
+* Screen 2225px
+
+The Am I Responsive website generates the following screen examples:
+
+![alt text](documents/am-i-responsive.png "am i responsive screenshot showing example sceeen sizes")
+
+   #### 8.4.2 Supported Browsers
+
+The site has been tested and was found to work on the following internet browsers:
+
+* Google Chrome
+
+* Microsoft Edge
 
 ## 9. Deployment
    ### 9.1 via gitpod
