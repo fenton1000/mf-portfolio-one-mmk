@@ -102,18 +102,41 @@ Two potential future features have been identified at this point as follows:
 
 ### 5.1 Typography
 
-The chosen font for Headings is Montserrat.
-The chosen font for all other text is Hind.
+* The chosen font for Headings is Montserrat.
 
-It is considered that together they convey the simple, clean, businesslike approach required for this website.
+* The chosen font for all other text is Hind.
 
-The pairings were chosen from Google Fonts with reference to www.fontpair.co
+* It is considered that together they convey the simple, clean, businesslike approach required for this website.
+
+* The pairings were chosen from Google Fonts with reference to www.fontpair.co
 
 ### 5.2 Color Scheme
 
-The web page will be provided with a background colour in a light off white shade. EXACT DETAILS REMAIN TO BE FINALISED AT THIS STAGE IN THE DESIGN PROCESS.
+* The font-color is #131817 which is close to black and was chosen to ensure the text is easily read on lighter backgrounds.
 
-The individual competency sections and the testimonal cards will be provided with light background colours appropriate to the individual competencies. EXACT DETAILS REMAIN TO BE FINALISED AT THIS STAGE IN THE DESIGN PROCESS.
+* All other colors have been chosen to ensure clear contrast with the font-color.
+
+* All other colors have been chosen to be in keeping with the overall theme of the site that being it is related to gardens, property, handyperson work or if the color is deemed to relate to a specific competency of the business.
+
+* The background colour is #f7f2c7. It does not distract from the site content and aligns with the hero image.
+
+* The background color for the header and footer is #cac59d and was chosen to provide a degree of contrast from the main body of the page without being radically different. The subtle difference is important particularly for the header which is fixed and would otherwise blend into the background at certain scroll locations.
+
+* The background color for the link hover position is #8fbc8f and the font color is white (#ffffff). These were chosen to provide adequate contrast with each other and the pre-hover position.
+
+* The background color for text on the hero image is #deb887. This was chosen to provide adequate contrast with the image but remains in keeping with the main background color.
+
+* The background color for the garden section is #abc977. This is a green color in keeping with the gardening theme.
+
+* The background color for the flat-pack assembly section is #a6c4c4, a light grey, thought to reflect a more functional, mechanical competence.
+
+* The background color for the pressure washing and cleaning section is #94f7f7, a light blue color thought to reflect water and therefore appropriate to this section.
+
+* The background color for the interior painting and decorating section is #f5c9c9, a warmer, calm color refecting the comfort gained from an interiors upgrade.
+
+* The background color for the contact form is #d48888. This was chosen to provide adequate contrast and clearly define the form. It is similar to but darker than the interiors color and so stands out without being completely alien to the page.
+
+* The hover color for the form imputs is white. This is considered to clearly indicate an input field to the user.
 
 ## 6. Wireframes
 

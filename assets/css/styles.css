@@ -82,8 +82,8 @@ nav a {
 }
 
 nav a:hover, footer a:hover {
-    background-color: darkseagreen;
-    color: white;
+    background-color: #8fbc8f;
+    color: #ffffff;
     border-radius: 10px;
 }
 
