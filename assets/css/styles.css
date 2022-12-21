@@ -169,15 +169,13 @@ nav a:hover, footer a:hover {
 
 .card-holder {
     display: flex;
-    height: 1200px;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 
 .card-holder > div {
-    width: 200px;
-    height: 270px;
+    width: 65%;
     border-radius: 20px;
     text-align: justify;
 }
@@ -186,6 +184,7 @@ nav a:hover, footer a:hover {
 
 .card {
     box-shadow: 0 4px 8px 0 #000000cc;
+    margin: 20px;
 }
 
 .quote {
@@ -466,6 +465,11 @@ footer ul {
         flex-wrap: wrap;
     }
 
+    .card-holder > div {
+        width: 43%;
+        height: 250px;
+    }
+
     .photo-gallery {
         width: 40%;
       }
@@ -486,6 +490,10 @@ footer ul {
         height: 390px;
     }
 
+    .card-holder > div {
+        width: 38%;
+    }
+
     .photo-gallery {
         width: 35%;
       }
@@ -504,6 +512,10 @@ footer ul {
 
 @media screen and (min-width: 635px) {
 
+    .card-holder > div {
+        width: 35%;
+    }
+
     .photo-gallery {
         width: 32%;
       }
@@ -521,6 +533,11 @@ footer ul {
     .services div {
         width: 295px;
         height: 330px;
+    }
+
+    .card-holder > div {
+        width: 30%;
+        height: 260px;
     }
 
     .photo-gallery {
@@ -546,6 +563,11 @@ footer ul {
         height: 300px;
         flex-direction: row;
         flex-wrap: nowrap;
+    }
+
+    .card-holder > div {
+        width: 26%;
+        height: 300px;
     }
 
     .photo-gallery {
@@ -575,6 +597,10 @@ footer ul {
         height: 260px;
     }
 
+    .card-holder > div {
+        height: 280px;
+    }
+
     .contact-holder > div {
         width: 650px
     }
@@ -583,6 +609,12 @@ footer ul {
 /* For Screens 1250px wide and up */
 
 @media screen and (min-width: 1250px) {
+
+    .card-holder > div {
+        width: 18%;
+        height: 260px;
+    }
+
     .photo-gallery {
         width: 15%;
       }
