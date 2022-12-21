@@ -338,3 +338,9 @@ The site has been tested and was found to work on the following internet browser
    ### 9.2 via github pages
 ## 10. credits
 
+Photo gallery html structure from w3 schools see https://www.w3schools.com/css/css_image_gallery.asp
+
+/* Photo gallery css styling from w3 schools
+    see https://www.w3schools.com/css/css_image_gallery.asp  */
+
+/* .card adds shadows to create the "card" effect for testimonials - credit to w3schools.com */

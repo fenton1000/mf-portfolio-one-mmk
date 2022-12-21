@@ -1,5 +1,4 @@
 /* Import from Google Fonts*/
-
 @import url('https://fonts.googleapis.com/css2?family=Hind&family=Montserrat&display=swap');
 
 * {
@@ -15,7 +14,9 @@ body {
     color: #131817;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: Montserrat, sans-serif;
     font-weight: 700;
 }
@@ -42,14 +43,14 @@ header {
     z-index: 2
 }
 
-header > a {
+header>a {
     text-decoration: none;
     color: inherit;
     float: left;
     margin-left: 20px;
 }
 
-header > a:hover {
+header>a:hover {
     background-color: #8fbc8f;
     color: #ffffff;
     border-radius: 10px;
@@ -66,11 +67,13 @@ nav {
     margin-right: 20px;
 }
 
-nav li, footer li {
+nav li,
+footer li {
     display: inline-block;
 }
 
-nav a, footer a {
+nav a,
+footer a {
     font-size: 15px;
     text-decoration: none;
     color: inherit;
@@ -81,7 +84,8 @@ nav a {
     letter-spacing: 3px;
 }
 
-nav a:hover, footer a:hover {
+nav a:hover,
+footer a:hover {
     background-color: #8fbc8f;
     color: #ffffff;
     border-radius: 10px;
@@ -122,7 +126,6 @@ nav a:hover, footer a:hover {
 }
 
 /* #hero-image p styles the "As lifes too short tag */
-
 #hero-image p {
     background-color: #deb887;
     width: 5%;
@@ -174,13 +177,11 @@ nav a:hover, footer a:hover {
     justify-content: space-around;
 }
 
-.card-holder > div {
+.card-holder>div {
     width: 65%;
     border-radius: 20px;
     text-align: justify;
 }
-
-/* .card adds shadows to create the "card" effect for testimonials - credit to w3schools.com */
 
 .card {
     box-shadow: 0 4px 8px 0 #000000cc;
@@ -213,29 +214,26 @@ nav a:hover, footer a:hover {
     justify-content: space-around;
 }
 
-/* Photo gallery css styling from w3 schools
-    see https://www.w3schools.com/css/css_image_gallery.asp  */
-
 .photo-gallery {
     margin: 5px;
     border: 1px solid #ccc;
     width: 65%;
     background-color: #cac59d;
-  }
-  
+}
+
 .photo-gallery:hover {
     border: 1px solid #777;
-  }
-  
-  .photo-gallery img {
+}
+
+.photo-gallery img {
     width: 100%;
     height: auto;
-  }
-  
-  .caption {
+}
+
+.caption {
     padding: 15px;
     text-align: center;
-  }
+}
 
 .contact-holder {
     display: flex;
@@ -245,7 +243,7 @@ nav a:hover, footer a:hover {
     justify-content: space-around;
 }
 
-.contact-holder > div {
+.contact-holder>div {
     width: 200px;
     height: 650px;
     padding: 10px;
@@ -318,7 +316,6 @@ footer ul {
 }
 
 /* For Screens 700px wide and down */
-
 @media screen and (max-width: 700px) {
 
     header {
@@ -347,11 +344,11 @@ footer ul {
         left: 5px;
         text-align: left;
     }
-    
+
     #main-heading h1 {
         font-size: 25px;
     }
-    
+
     #main-heading h2 {
         font-size: 10px;
     }
@@ -365,19 +362,18 @@ footer ul {
         display: none;
     }
 
-    .contact-holder > div {
+    .contact-holder>div {
         height: 400px;
     }
 }
 
 /* For Screens 570px wide and down */
-
 @media screen and (max-width: 570px) {
-    
+
     #main-heading h1 {
         font-size: 20px;
     }
-    
+
     #main-heading h2 {
         font-size: 10px;
     }
@@ -388,14 +384,13 @@ footer ul {
 }
 
 /* For Screens 400px wide and down */
-
 @media screen and (max-width: 400px) {
 
     header {
         padding: 3px 0;
     }
 
-    header > a {
+    header>a {
         margin-left: 5px;
     }
 
@@ -413,7 +408,7 @@ footer ul {
     nav a {
         font-size: 10px;
         padding: 1px 3px;
-     letter-spacing: 1px;
+        letter-spacing: 1px;
     }
 
     #main-heading {
@@ -439,10 +434,9 @@ footer ul {
 }
 
 /* For Screens 340px wide and down */
-
 @media screen and (max-width: 340px) {
 
-    header span{
+    header span {
         display: none;
     }
 
@@ -452,9 +446,8 @@ footer ul {
 }
 
 /* For Screens 500px wide and up */
-
 @media screen and (min-width: 500px) {
-    
+
     .card-holder {
         height: 600px;
         flex-wrap: wrap;
@@ -465,21 +458,20 @@ footer ul {
         flex-wrap: wrap;
     }
 
-    .card-holder > div {
+    .card-holder>div {
         width: 43%;
         height: 250px;
     }
 
     .photo-gallery {
         width: 40%;
-      }
+    }
 }
 
 /* For Screens 570px wide and up */
-
 @media screen and (min-width: 570px) {
 
-    .services { 
+    .services {
         height: 450px;
         width: 100%;
         flex-direction: row;
@@ -490,13 +482,13 @@ footer ul {
         height: 390px;
     }
 
-    .card-holder > div {
+    .card-holder>div {
         width: 38%;
     }
 
     .photo-gallery {
         width: 35%;
-      }
+    }
 
     .contact-holder {
         height: 750px;
@@ -509,20 +501,18 @@ footer ul {
 }
 
 /* For Screens 635px wide and up */
-
 @media screen and (min-width: 635px) {
 
-    .card-holder > div {
+    .card-holder>div {
         width: 35%;
     }
 
     .photo-gallery {
         width: 32%;
-      }
     }
+}
 
 /* For Screens 700px wide and up */
-
 @media screen and (min-width: 700px) {
 
     .services {
@@ -535,22 +525,21 @@ footer ul {
         height: 330px;
     }
 
-    .card-holder > div {
+    .card-holder>div {
         width: 30%;
         height: 260px;
     }
 
     .photo-gallery {
         width: 27%;
-      }
+    }
 
-    .contact-holder > div {
+    .contact-holder>div {
         width: 400px
     }
 }
 
-    /* For Screens 850px wide and up */
-
+/* For Screens 850px wide and up */
 @media screen and (min-width: 850px) {
 
     .card-holder {
@@ -565,16 +554,16 @@ footer ul {
         flex-wrap: nowrap;
     }
 
-    .card-holder > div {
+    .card-holder>div {
         width: 26%;
         height: 300px;
     }
 
     .photo-gallery {
         width: 23%;
-      }
+    }
 
-    .contact-holder > div {
+    .contact-holder>div {
         width: 550px
     }
 
@@ -583,8 +572,7 @@ footer ul {
     }
 }
 
-    /* For Screens 950px wide and up */
-
+/* For Screens 950px wide and up */
 @media screen and (min-width: 950px) {
 
     .services {
@@ -597,25 +585,24 @@ footer ul {
         height: 260px;
     }
 
-    .card-holder > div {
+    .card-holder>div {
         height: 280px;
     }
 
-    .contact-holder > div {
+    .contact-holder>div {
         width: 650px
     }
 }
 
 /* For Screens 1250px wide and up */
-
 @media screen and (min-width: 1250px) {
 
-    .card-holder > div {
+    .card-holder>div {
         width: 18%;
         height: 260px;
     }
 
     .photo-gallery {
         width: 15%;
-      }
+    }
 }
