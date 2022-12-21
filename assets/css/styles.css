@@ -258,10 +258,10 @@ nav a:hover, footer a:hover {
 }
 
 #contact-form {
-    width: 200px;
-    height: 650px;
+    width: 170px;
+    height: 590px;
     background-color: #d48888;
-    padding: 10px;
+    padding: 30px;
     border-radius: 20px;
 }
 
@@ -277,12 +277,11 @@ nav a:hover, footer a:hover {
 input {
     padding: 5px;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 label {
     font-size: small;
-    padding-bottom: 5px;
 }
 
 textarea {
