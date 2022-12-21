@@ -473,7 +473,7 @@ footer ul {
 
 @media screen and (min-width: 570px) {
 
-    .services {
+    .services { 
         height: 450px;
         width: 100%;
         flex-direction: row;
