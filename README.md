@@ -6,7 +6,7 @@ Mark's Maintenance Killarney is a service provider website aimed at people in ne
 
 From the business owner's point of view the clear aim is to increase business volume by providing clear information on the services the business provides, ensuring this information gets to the right people through thoughtful Search Engine Optimisation and providing clear and easy means of contacting the business.
 
-This site is aimed at people likely to be searching for services and terms such as, Handyman, Handyperson, DIY, Propery Maintenance, Garden Maintenance, Grass Cutting, No Job too Small.
+This site is aimed at people likely to be searching for services and terms such as, Handyman, Handyperson, DIY, Property Maintenance, Garden Maintenance, Grass Cutting, No Job too Small.
 
 ## 2. User Stories
 
@@ -48,7 +48,7 @@ The user stories upon which the features of the project are based are as follows
 
 * Contains four distinct sections, one for each of the four areas of business competency, these being GARDEN, FLAT-PACK ASSEMBLY, PRESSURE WASHING AND CLEANING and INTERIOR PAINTING AND DECORATING.
 
-* Each section contains a paragraph oulining the services provided.
+* Each section contains a paragraph outlining the services provided.
 
 ![alt text](documents/what-we-do.png "what we do")
 
@@ -74,7 +74,7 @@ The user stories upon which the features of the project are based are as follows
 
 ### 3.6 Contact Us
 
-* Contains contact details including, telephone number, email address and address.
+* Contains contact details including, telephone number, email address and postal address.
 
 * Includes a contact form that can be completed and submitted. The form has required fields so as to ensure correct completion. Upon submission a comfirmation page is returned.
 
@@ -109,6 +109,8 @@ Two potential future features have been identified at this point as follows:
 * It is considered that together they convey the simple, clean, businesslike approach required for this website.
 
 * The pairings were chosen from Google Fonts with reference to www.fontpair.co
+
+* The fall-back font is sans-serif.
 
 ### 5.2 Color Scheme
 
@@ -169,9 +171,11 @@ The following technologies were used:
 
 * The website is deployed on GITHUB pages.
 
-* Testing was carried out using Chrome Developer Tools including lighthouse for responsiveness and performance.
+* Testing was carried out using Chrome Developer Tools including lighthouse for responsiveness and accessibility.
 
 * Balsamiq was used to prepare wireframes.
+
+* https://convertio.co was used to convert jpeg images to webp images.
 
 ## 8. Testing
 
@@ -253,7 +257,7 @@ Test Requirement|Met Requirement when tested
 ---|:---:
 Provide business phone number|Yes
 Provide business email|Yes
-Provide business address|Yes
+Provide business postal address|Yes
 Provide map on larger screen sizes|Yes
 Provide a contact form|Yes
 On Form:|
@@ -275,21 +279,10 @@ When submit pressed a confirmation pages opens|Yes
 Confirmation page has header and footer in same website styling|Yes
 Confirmation page has logo and home links for navigation back to main page|Yes
 Confirmation page links work when clicked|Yes
-Temporarily link form to Code Institute form dump via method POST and check data correctly sent|Yes (See screen grabs below)
 Clicking on Facebook icon opens Facebook in a new page|Yes
 Clicking on Instagram icon opens Instagram in a new page|Yes
 Clicking on Twitter icon opens Twitter in a new page|Yes
 Clicking on youtube icon opens youtube in a new page|Yes
-
-#### 8.2.6 Form Dump Screen Grabs
-
-Completed Form:
-
-![alt text](documents/form.png "form screenshot")
-
-Form Dump Confirmation:
-
-![alt text](documents/form-dump.png "form dump confirmation screenshot")
 
    ### 8.3 Fixed Bugs
 
@@ -332,6 +325,8 @@ The site has been tested and was found to work on the following internet browser
 * Google Chrome
 
 * Microsoft Edge
+
+* Firefox
 
 ## 9. Deployment
    ### 9.1 via gitpod
