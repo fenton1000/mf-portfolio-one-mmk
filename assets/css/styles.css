@@ -209,7 +209,6 @@ nav a:hover, footer a:hover {
 
 .gallery-holder {
     display: flex;
-    height: 1000px;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -221,7 +220,7 @@ nav a:hover, footer a:hover {
 .photo-gallery {
     margin: 5px;
     border: 1px solid #ccc;
-    width: 200px;
+    width: 65%;
     background-color: #cac59d;
   }
   
@@ -466,6 +465,10 @@ footer ul {
         height: 500px;
         flex-wrap: wrap;
     }
+
+    .photo-gallery {
+        width: 40%;
+      }
 }
 
 /* For Screens 570px wide and up */
@@ -483,6 +486,10 @@ footer ul {
         height: 390px;
     }
 
+    .photo-gallery {
+        width: 35%;
+      }
+
     .contact-holder {
         height: 750px;
         flex-direction: row;
@@ -492,6 +499,15 @@ footer ul {
         font-size: 20px;
     }
 }
+
+/* For Screens 635px wide and up */
+
+@media screen and (min-width: 635px) {
+
+    .photo-gallery {
+        width: 32%;
+      }
+    }
 
 /* For Screens 700px wide and up */
 
@@ -506,6 +522,10 @@ footer ul {
         width: 295px;
         height: 330px;
     }
+
+    .photo-gallery {
+        width: 27%;
+      }
 
     .contact-holder > div {
         width: 400px
@@ -527,6 +547,10 @@ footer ul {
         flex-direction: row;
         flex-wrap: nowrap;
     }
+
+    .photo-gallery {
+        width: 23%;
+      }
 
     .contact-holder > div {
         width: 550px
@@ -554,4 +578,12 @@ footer ul {
     .contact-holder > div {
         width: 650px
     }
+}
+
+/* For Screens 1250px wide and up */
+
+@media screen and (min-width: 1250px) {
+    .photo-gallery {
+        width: 15%;
+      }
 }
