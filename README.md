@@ -328,6 +328,13 @@ The site has been tested and was found to work on the following internet browser
 
 * Firefox
 
+### 8.5 Accessibility
+
+Lighthouse in Google Chrome Developer Tools was used to assess accessibility and it was found to be acceptable.
+
+![alt text](documents/lighthouse.png "lighthouse testing screenshot")
+
+
 ## 9. Deployment
 
    ### 9.1 via gitpod
