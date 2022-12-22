@@ -385,6 +385,8 @@ The site was developed in gitpod as follows:
 
 * Once deployed any further changes pushed from Gitpod will be reflected in the website following a hard refresh of the pages. It may take a few minutes for changes to transfer so it may be necessary to complete a hard refresh after a few minutes if changes do not appear reflected in the latest pages at first.
 
+* The live site can be accessed <a href="https://fenton1000.github.io/mf-portfolio-one-mmk/#hero" target="_blank">here</a>
+
 ## 10. credits
 
 * Code Institute for the Gitpod template provided at https://github.com/Code-Institute-Org/gitpod-full-template allowing easy set up of a repository and workspace as well as initial project html template.
