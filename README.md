@@ -329,13 +329,103 @@ The site has been tested and was found to work on the following internet browser
 * Firefox
 
 ## 9. Deployment
+
    ### 9.1 via gitpod
+
+The site was developed in gitpod as follows:
+
+1. From the github repository created for the project (see below) the Gitpod button installed as a chrome browser extension was clicked. A Gitpod workspace was created.
+
+2. Within the workspace explorer, required html files were created. For this project two files were create index.html and confirm.html.
+
+3. Within the workspace explorer an assets folder was created.
+
+4. Within the assets folder a css folder and an image folder were created.
+
+5. Images for the website were stored in the images folder.
+
+6. Within the css folder a styles.css folder was created for the project css.
+
+7. Basic template boilerplate html was introduced to index.html and a link created to the styles.css file.
+
+8. Coding of the website proceeded using the html and css coding languages.
+
+9. To view the ongoing development in a seperate browser tab, the command python3-m http.server was entered in the IDE terminal.
+
+10. At regular appropriate intervals the latest version of the code was saved via the git add and git commit commands. Appropriate commit messages were added to control the revisions.
+
+11. The git push command was used to push all committed code and documentation  to the repository for secure storing.
+
    ### 9.2 via github pages
+
+1. The Code Institute project template was accessed on github at https://github.com/Code-Institute-Org/gitpod-full-template and the Use this Template button clicked to create a project specific repository.
+
+2. All files and documents pushed from Gitpod appear in the repository.
+
+3. The website is deployed to github pages as follows:
+
+* From the project repository click on the settings button.
+
+* Then click on Pages in the options listed to the left.
+
+* Chose to deploy from a branch and select the main branch.
+
+* Deploy the page.
+
+* The web pages are deployed to github pages and a link to the page is provided. This may take a few minutes.
+
+* Click on the link to access the deployed website. The link can also be copied to anyone needing to access the site as can the repository address.
+
+* Once deployed any further changes pushed from Gitpod will be reflected in the website following a hard refresh of the pages. It may take a few minutes for changes to transfer so it may be necessary to complete a hard refresh after a few minutes if changes do not appear reflected in the latest pages at first.
+
 ## 10. credits
 
-Photo gallery html structure from w3 schools see https://www.w3schools.com/css/css_image_gallery.asp
+* Code Institute for the Gitpod template provided at https://github.com/Code-Institute-Org/gitpod-full-template allowing easy set up of a repository and workspace as well as initial project html template.
 
-/* Photo gallery css styling from w3 schools
-    see https://www.w3schools.com/css/css_image_gallery.asp  */
+* Code Institute Love Running example project for general guidance as to mimimun requirements and overview of approach and industry conventions as well as guidance on SEO using metadata in head element.
 
-/* .card adds shadows to create the "card" effect for testimonials - credit to w3schools.com */
+* Font Awesome for social media icons and house/home icon.
+
+* Google Fonts for imported text fonts.
+
+* www.fontpair.co for advice on font pairing.
+
+* Pexels - https://www.pexels.com/ for the following images:
+
+1. Hero Image - Photo by Max Vakhtbovych: https://www.pexels.com/photo/trees-outside-a-modern-residential-house-7587877/
+
+2. Photo by Erik Mclean: https://www.pexels.com/photo/pressure-washer-placed-on-sidewalk-4876669/
+
+3. Photo by Keegan Checks: https://www.pexels.com/photo/plates-and-bowls-on-shelves-in-a-kitchen-10117734/
+
+4. Photo by Lisa Fotios: https://www.pexels.com/photo/crates-mounted-on-wall-1090638/
+
+5. Photo by Max Vakhtbovych: https://www.pexels.com/photo/potted-codiaeum-variegatum-plant-placed-near-wardrobe-in-room-6508343/
+
+6. Photo by Pixabay: https://www.pexels.com/photo/apartment-architecture-contemporary-design-271722/
+
+7. Photo by Scott Webb: https://www.pexels.com/photo/green-plant-212942/
+
+8. Photo by Torsten Dettlaff: https://www.pexels.com/photo/round-brown-wooden-5-piece-dining-set-on-lawn-grass-59321/
+
+* Pixabay - https://pixabay.com/ for the following image: Photo by Jens Teichmann: https://pixabay.com/users/yancetay-5294624/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2410572
+
+* Photo gallery html structure and css styling from w3 schools see https://www.w3schools.com/css/css_image_gallery.asp This code creates the structure and style giving each image a description underneath, creating a hover style for each image and having each image as clickable to open in a new tab.
+
+* Card effect styling from w3 schools see https://www.w3schools.com/howto/howto_css_cards.asp. Adds box-shadow to create the card effect for the testimonials.
+
+* w3schools - www.w3schools.com for information on html elements and css attributes and values.
+
+* Stackoverflow for general guidance on css attributes and values.
+
+* Google Maps for iframe embedded map.
+
+* Facebook, Instagram, Twitter and youtube for social media icons for links.
+
+* https://convertio.co was used to convert jpeg images to webp images.
+
+* Code Institute Coders Club README example for minimun README requirements.
+
+* https://ui.dev/amiresponsive for the screen size images in section 8.4 of this README.
+
+* Mr. Rohit Sharma (Mentor) for guidance on overall project approach, industry standards and README requirements. Also for specific signposting towards cards effect for testimonials, photo gallery ideas and flexbox as a responsiveness solution.
